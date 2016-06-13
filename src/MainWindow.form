@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="mypanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1056" height="687"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="a7b9f">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="be882" class="javax.swing.JButton" binding="imageButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <icon value="icons/glyphicons_138_picture.png"/>
+              <text value="Image"/>
+            </properties>
+          </component>
+          <component id="fa1bd" class="javax.swing.JButton" binding="loadButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <icon value="icons/glyphicons_144_folder_open.png"/>
+              <text value="Load"/>
+            </properties>
+          </component>
+          <component id="bbc3e" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <icon value="icons/glyphicons_358_file_import.png"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <component id="f72a8" class="javax.swing.JButton" binding="settingsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <icon value="icons/glyphicons_280_settings.png"/>
+              <text value="Settings"/>
+            </properties>
+          </component>
+          <component id="f90ce" class="javax.swing.JButton" binding="infoButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <icon value="icons/glyphicons_195_circle_info.png"/>
+              <text value="Info"/>
+            </properties>
+          </component>
+          <hspacer id="5b381">
+            <constraints/>
+          </hspacer>
+        </children>
+      </toolbar>
+      <toolbar id="c0e90">
+        <constraints border-constraint="West"/>
+        <properties>
+          <orientation value="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f1ad2" class="javax.swing.JButton" binding="axisButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <icon value="icons/glyphicons_119_table.png"/>
+              <text value="Axis"/>
+            </properties>
+          </component>
+          <component id="2e7ce" class="javax.swing.JButton" binding="dotsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <icon value="icons/glyphicons_156_show_thumbnails.png"/>
+              <text value="Dots"/>
+            </properties>
+          </component>
+          <component id="ca3c5" class="javax.swing.JButton" binding="legendButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <icon value="icons/glyphicons_008_film.png"/>
+              <text value="Legend"/>
+            </properties>
+          </component>
+          <component id="147c9" class="javax.swing.JButton" binding="selectButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="icons/glyphicons_141_database_plus.png"/>
+              <text value="Select"/>
+            </properties>
+          </component>
+          <vspacer id="9c2ef">
+            <constraints/>
+          </vspacer>
+        </children>
+      </toolbar>
+      <scrollpane id="4b10b" binding="scrollPane">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <horizontalScrollBarPolicy value="32"/>
+          <verticalScrollBarPolicy value="22"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="acc5d" binding="picture" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
